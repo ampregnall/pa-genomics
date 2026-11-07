@@ -1,0 +1,9 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+/.uvr/library/
+/.uvr/activate*
+.vscode
+data/
+logs/
+notebooks

@@ -1,0 +1,9 @@
+[project]
+name = "primary-aldosteronism"
+
+[dependencies]
+Rcpp = "*"
+"data.table" = "*"
+jsonlite = "*"
+languageserver = "*"
+rstudioapi = "*"
