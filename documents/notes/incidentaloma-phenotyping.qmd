@@ -1,0 +1,25 @@
+---
+title: "Project notes: Incidentaloma phenotyping"
+subtitle: "PA risk prediction · PMBB"
+author: "Andrew M. Pregnall"
+date: today
+date-format: "YYYY-MM-DD"
+format:
+  typst:
+    papersize: us-letter
+    margin: {x: 1in, y: 0.9in}
+    fontsize: 10pt
+    section-numbering: "1.1"
+    toc: false
+execute:
+  echo: false
+  warning: false
+# bibliography: references.bib
+---
+
+# Incidentaloma Phenotyping 
+
+## DHEA-S Testing
+
+Serum dehydroepiandrosterone sulfate (DHEA-S) results were extracted from the electronic health record for all genotyped participants in the Penn Medicine BioBank (PMBB). A total of 10,195 results from 7,647 participants were identified. We excluded results reported in units other than µg/dL and results that were non-numeric, leaving 9,420 results from 7,191 participants. For participants with multiple measurements, the maximum value was used. Participants with a maximum DHEA-S > 600 µg/dL, a threshold [reference], were classified as DHEA-S positive and excluded from downstream analysis.
+
