@@ -21,5 +21,12 @@ execute:
 
 ## DHEA-S Testing
 
-Serum dehydroepiandrosterone sulfate (DHEA-S) results were extracted from the electronic health record for all genotyped participants in the Penn Medicine BioBank (PMBB). A total of 10,195 results from 7,647 participants were identified. We excluded results reported in units other than µg/dL and results that were non-numeric, leaving 9,420 results from 7,191 participants. For participants with multiple measurements, the maximum value was used. Participants with a maximum DHEA-S > 600 µg/dL, a threshold [reference], were classified as DHEA-S positive and excluded from downstream analysis.
+Serum dehydroepiandrosterone sulfate (DHEA-S) results were extracted from the electronic health record (EHR) for all genotyped participants in the Penn Medicine BioBank (PMBB). A total of 10,195 results from 7,647 participants were identified. We excluded results reported in units other than µg/dL and results that were non-numeric, leaving 9,420 results from 7,191 participants. For participants with multiple measurements, the maximum value was used. Participants with a maximum DHEA-S > 600 µg/dL, a threshold [reference], were classified as DHEA-S positive and excluded from downstream analysis.
 
+## Cortisol Testing
+
+Serum cortisol results were extracted from the EHR for all genotyped participants in PMBB. A total of X results from Y participants were identified. We excluded non-numeric results, leaving X results from Y particiants. For participants with multiple measurements, the maximum value was used. Participants were classifed as cortisol positive and excluded from downstream analysis if they met any of the following criteria: (1) a serum cortisol level > 1.8 µg/dL following a 1 mg dexamethasone suppression challenge [reference]; (2) a 24-hour free urinary cortisol > 200; (3) midnight salivary cortisol levels > 2.0 µg/dL; or random serum cortisol levels > 41 µg/dL [reference].
+
+## Metanephrine Testing
+
+## Normetanephrine Testing
