@@ -1,6 +1,5 @@
 ---
-title: "Project notes: Incidentaloma phenotyping"
-subtitle: "PA risk prediction · PMBB"
+title: "Penn Medicine BioBank Adrenal Incidentaloma Phenotyping"
 author: "Andrew M. Pregnall"
 date: today
 date-format: "YYYY-MM-DD"
@@ -21,12 +20,16 @@ execute:
 
 ## DHEA-S Testing
 
-Serum dehydroepiandrosterone sulfate (DHEA-S) results were extracted from the electronic health record (EHR) for all genotyped participants in the Penn Medicine BioBank (PMBB). A total of 10,195 results from 7,647 participants were identified. We excluded results reported in units other than µg/dL and results that were non-numeric, leaving 9,420 results from 7,191 participants. For participants with multiple measurements, the maximum value was used. Participants with a maximum DHEA-S > 600 µg/dL, a threshold [reference], were classified as DHEA-S positive and excluded from downstream analysis.
+Serum dehydroepiandrosterone sulfate (DHEA-S) results were extracted from the electronic health record (EHR) for all genotyped participants in the Penn Medicine BioBank (PMBB). A total of 10,195 results from 7,647 participants were identified. We excluded results reported in units other than µg/dL and results that were non-numeric, leaving 9,420 results from 7,191 participants. For participants with multiple measurements, the maximum value was used. Participants with a maximum DHEA-S > 700 µg/dL were classified as DHEA-S positive [@EvaluationTreatmentAndrogen2006, @derksenIdentificationVirilizingAdrenal1994] and excluded from downstream analysis.
 
 ## Cortisol Testing
 
-Serum cortisol results were extracted from the EHR for all genotyped participants in PMBB. A total of X results from Y participants were identified. We excluded non-numeric results, leaving X results from Y particiants. For participants with multiple measurements, the maximum value was used. Participants were classifed as cortisol positive and excluded from downstream analysis if they met any of the following criteria: (1) a serum cortisol level > 1.8 µg/dL following a 1 mg dexamethasone suppression challenge [reference]; (2) a 24-hour free urinary cortisol > 200; (3) midnight salivary cortisol levels > 2.0 µg/dL; or random serum cortisol levels > 41 µg/dL [reference].
+Serum cortisol results were extracted from the EHR for all genotyped participants in PMBB. A total of 53,643 results from 19,409 participants were identified. We excluded non-numeric results, leaving 53,275 results from 19,356 particiants. For participants with multiple measurements, the maximum value was used. Participants were classifed as cortisol positive and excluded from downstream analysis if they met any of the following criteria: (1) a serum cortisol level > 1.8 µg/dL following a 1 mg dexamethasone suppression challenge [@kabbaniManagementApproachAdrenal2026, @hamidiMeasuringCortisolCushing2026]; (2) a 24-hour free urinary cortisol > 200 [@kabbaniManagementApproachAdrenal2026]; (3) midnight salivary cortisol levels > 2.0 µg/dL [@kabbaniManagementApproachAdrenal2026]; or random serum cortisol levels > 41 µg/dL [@alexandrakiTherapeuticStrategiesTreatment2016].
 
 ## Metanephrine Testing
 
+Serum metanephrine results were extracted from the EHR for all genotyped participants in PMBB. A total of 3,663 results from 1,709 participants were identified. We excluded non-numeric results, leaving 2,150 results from 1,188 particiants. For participants with multiple measurements, the maximum value was used. Participants with maximum serum metanephrine > 1.1 nmol/L were classified as metanephrine positive [@lendersBiochemicalDiagnosisPheochromocytoma2002] and exlcuded from downstream analysis.
+
 ## Normetanephrine Testing
+
+Serum normetanephrine results were extracted from the EHR for all genotyped participants in PMBB. A total of 3,443 results from 1,685 participants were identified. We excluded non-numeric results, leaving 3,194 results from 1,608 particiants. For participants with multiple measurements, the maximum value was used. Participants with maximum serum metanephrine > 2.2 nmol/L were classified as normetanephrine positive [@lendersBiochemicalDiagnosisPheochromocytoma2002] and exlcuded from downstream analysis.
